@@ -6,7 +6,7 @@ video {
     min-width: 100%;
     min-height: 100%;
     width: auto;
-    height: auto;
+    height: 100vh;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
@@ -15,8 +15,8 @@ video {
 
 .splash-container {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 100vw;
+    grid-template-rows: 100vh;
     grid-template-areas: "splash";
     height: 100vh;
     width: 100vw;
@@ -24,6 +24,8 @@ video {
 
 .splash-container__video-box {
     grid-area: splash;
+    height: 100%;
+    width: 100%;
 }
 
 .splash-container__header-text {
