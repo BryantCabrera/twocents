@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #182C3C;
+}
+
+.navbar__nav--hamburger {
+    display: none;
+}
+
+nav a:link,
+nav a:visited {
+    padding: 0 1rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+nav a:hover,
+nav a:active {
+    color: #888;
+}
+
+.navbar__logo__img {
+    height: 4rem;
+}
+
+/*************************/
+/***** MEDIA QUERIES *****/
+/*************************/
+@media (max-width: 48em) {
+    .navbar__nav--linear {
+        display: none;
+    }
+    
+    .navbar__nav--hamburger {
+        display: block;
+    }
+}
