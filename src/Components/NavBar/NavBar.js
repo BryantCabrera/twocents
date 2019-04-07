@@ -15,8 +15,27 @@ class NavBar extends Component {
                     <a href="#Contact" title="Contact Page">Contact</a>
                 </nav>
                 <nav className="navbar__nav--hamburger">
+                    <input type="checkbox" className="hamburger__checkbox" id="hamburger-toggle"></input>
+        
+                    <label for="hamburger-toggle" className="hamburger__button">
+                        <span className="hamburger__icon">&nbsp;</span>
+                    </label>
+
+                    <div className="hamburger__background">&nbsp;</div>
+
                     <ul className="hamburger__list">
-                        <li className="hamburger__item"></li>
+                        <li className="hamburger__item">
+                            <a className="hamburger__link" href="#about" title="About Page">About</a>
+                        </li>
+                        <li className="hamburger__item">
+                            <a className="hamburger__link" href="#Services" title="Services Page">Services</a>
+                        </li>
+                        <li className="hamburger__item">
+                            <a className="hamburger__link" href="#Support" title="Support Page">Support</a>
+                        </li>
+                        <li className="hamburger__item">
+                            <a className="hamburger__link" href="#Contact" title="Contact Page">Contact</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
