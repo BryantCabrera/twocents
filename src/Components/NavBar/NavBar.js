@@ -22,21 +22,23 @@ class NavBar extends Component {
                     </label>
 
                     <div className="hamburger__background">&nbsp;</div>
-
-                    <ul className="hamburger__list">
-                        <li className="hamburger__item">
-                            <a className="hamburger__link" href="#about" title="About Page">About</a>
-                        </li>
-                        <li className="hamburger__item">
-                            <a className="hamburger__link" href="#Services" title="Services Page">Services</a>
-                        </li>
-                        <li className="hamburger__item">
-                            <a className="hamburger__link" href="#Support" title="Support Page">Support</a>
-                        </li>
-                        <li className="hamburger__item">
-                            <a className="hamburger__link" href="#Contact" title="Contact Page">Contact</a>
-                        </li>
-                    </ul>
+                    
+                    <div className="hamburger__nav">
+                        <ul className="hamburger__list">
+                            <li className="hamburger__item">
+                                <a className="hamburger__link" href="#about" title="About Page">About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            </li>
+                            <li className="hamburger__item">
+                                <a className="hamburger__link" href="#Services" title="Services Page">Services</a>
+                            </li>
+                            <li className="hamburger__item">
+                                <a className="hamburger__link" href="#Support" title="Support Page">Support</a>
+                            </li>
+                            <li className="hamburger__item">
+                                <a className="hamburger__link" href="#Contact" title="Contact Page">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         )
